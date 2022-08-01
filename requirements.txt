@@ -1,2 +1,5 @@
-Opencv: 4.6.0.66
-Numpy: 1.19.2
+Required Libraries:
+opencv-python==4.6.0.66
+numpy==1.19.2
+
+This program works mainly by using contours and canny edge detection. By finding the edges of the cars, and putting white contours on the edges, the program is able to check whether a car is parked in a parking space or not by looking at the amount of white pixels for each of the parking spaces. If there are a lot of white pixels in a parking space, that means there is a car parked there, and therefore is puts a red rectangle around the parking space. If there isn't a lot of white pixels, than it means there isn't a car parked there, and it puts a green rectangle around the parking space.
