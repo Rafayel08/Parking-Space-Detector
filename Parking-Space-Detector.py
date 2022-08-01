@@ -1,6 +1,5 @@
 import numpy as np
 import cv2
-from PIL import Image
 video=cv2.VideoCapture("CarParkProject/carPark.mp4")
 ret, Prev_frame= video.read()
 ret, Current_frame=video.read()
