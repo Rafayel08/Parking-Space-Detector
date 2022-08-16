@@ -1,2 +1,2 @@
 # Parking-Space-Detector
-A program that detects whether a parking space is available or not by checking the color of the pixels in the area of the parking space.
+A program that detects whether a parking space is available or not by checking the color of the pixels in the area of the parking space with canny edge detection. Requires opencv 4.6.0.66 and numpy 1.19.2. Download the example folder labeled "CarParkProject" and the python script "Parking-Space-Detector.py" to use this. Make sure that both downloads are in the same folder.
